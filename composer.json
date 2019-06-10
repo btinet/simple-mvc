@@ -1,0 +1,21 @@
+{
+    "name": "benja/simple-mvc",
+    "description": "A lightweight PHP Framework",
+    "type": "framework",
+	 "homepage": "https://www.simplemvc.com",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Benjamin Voigt",
+            "email": "benjamin.voigt@btinet.org",
+			"role": "Lead Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+	"autoload": {
+        "psr-4": {
+            "simplemvc\\": "src/"
+        }
+    }
+}
